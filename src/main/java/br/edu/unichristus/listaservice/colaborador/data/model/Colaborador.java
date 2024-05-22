@@ -26,9 +26,9 @@ public class Colaborador {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name = "nome", nullable = false, length = 150)
-    @NotNull(message = "Nome não pode ser nulo")
-    @Size(max = 150, message = "Nome não pode exceder 150 caracteres")
+	//@Column(name = "nome", nullable = false, length = 150)
+    //@NotNull(message = "Nome não pode ser nulo")
+    //@Size(max = 150, message = "Nome não pode exceder 150 caracteres")
     private String nome;
 	
 	@Column(nullable = false, length = 150)
